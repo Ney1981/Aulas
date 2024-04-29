@@ -94,9 +94,11 @@ if($_SESSION["rol"] == "Estudiante"){
                 <input type="hidden" name="id_alumno" value="'.$_SESSION["id"].'">
                 <input type="hidden" name="id_aula" value="'.$exp[1].'">
 
-                <button type="submit" class="btn btn-danger">Dar de Baja</button>
 
             </form>';
+
+            // <button type="submit" class="btn btn-danger">Dar de Baja</button>
+
 
             $darbaja = new AlumnosC();
             $darbaja -> DarBajaC();
