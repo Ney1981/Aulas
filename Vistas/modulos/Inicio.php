@@ -49,87 +49,90 @@
 
                 <br>
 
-                <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                <div style="background-color: #154360; padding: 20px;">
 
-                    <h1>Carreras:</h1>
+                    <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
 
-                    <div class="row">
+                        <h1>Carreras:</h1>
 
-                        <?php
+                        <div class="row">
 
-                            $resultado = CarrerasC::VerCarrerasC();
+                            <?php
 
-                            foreach ($resultado as $key => $value) {
+                                $resultado = CarrerasC::VerCarrerasC();
 
-                                $car = explode(" ", $value["nombre"]);
+                                foreach ($resultado as $key => $value) {
 
-                                if($car[0] == "Ingeniería"){
+                                    $car = explode(" ", $value["nombre"]);
 
-                                    echo '<div class="col-lg-4 col-xs-6">
+                                    if($car[0] == "Ingeniería"){
 
-                                        <div class="small-box bg-red">
-                    
-                                            <div class="inner">
-                    
-                                                <h3>Ingeniería</h3>
-                    
-                                                <p>'.$value["nombre"].'</p>
-                    
+                                        echo '<div class="col-lg-4 col-xs-6">
+
+                                            <div class="small-box bg-red">
+                        
+                                                <div class="inner">
+                        
+                                                    <h3>Ingeniería</h3>
+                        
+                                                    <p>'.$value["nombre"].'</p>
+                        
+                                                </div>
+                        
+                                                <div class="icon"><i class="fa fa-cogs"></i></div>
+                        
                                             </div>
-                    
-                                            <div class="icon"><i class="fa fa-cogs"></i></div>
-                    
-                                        </div>
-                    
-                                    </div>';
+                        
+                                        </div>';
 
-                                }else if($car[0] == "Tecnología"){
+                                    }else if($car[0] == "Tecnología"){
 
-                                    echo '<div class="col-lg-4 col-xs-6">
+                                        echo '<div class="col-lg-4 col-xs-6">
 
-                                        <div class="small-box bg-blue">
-                    
-                                            <div class="inner">
-                    
-                                                <h3>Tecnología</h3>
-                    
-                                                <p>'.$value["nombre"].'</p>
-                    
+                                            <div class="small-box bg-blue">
+                        
+                                                <div class="inner">
+                        
+                                                    <h3>Tecnología</h3>
+                        
+                                                    <p>'.$value["nombre"].'</p>
+                        
+                                                </div>
+                        
+                                                <div class="icon"><i class="fa fa-laptop"></i></div>
+                        
                                             </div>
-                    
-                                            <div class="icon"><i class="fa fa-laptop"></i></div>
-                    
-                                        </div>
-                    
-                                    </div>';
+                        
+                                        </div>';
 
-                                }else{
+                                    }else{
 
-                                    echo '<div class="col-lg-4 col-xs-6">
+                                        echo '<div class="col-lg-4 col-xs-6">
 
-                                        <div class="small-box bg-green">
-                    
-                                            <div class="inner">
-                    
-                                                <h3>'.$car[0].'</h3>
-                    
-                                                <p>'.$value["nombre"].'</p>
-                    
+                                            <div class="small-box bg-green">
+                        
+                                                <div class="inner">
+                        
+                                                    <h3>'.$car[0].'</h3>
+                        
+                                                    <p>'.$value["nombre"].'</p>
+                        
+                                                </div>
+                        
+                                                <div class="icon"><i class="fa fa-cogs"></i></div>
+                        
                                             </div>
-                    
-                                            <div class="icon"><i class="fa fa-cogs"></i></div>
-                    
-                                        </div>
-                    
-                                    </div>';
+                        
+                                        </div>';
+                                    }
+                                    
                                 }
-                                
-                            }
 
-                        ?>
+                            ?>
 
+                        </div>
+                        
                     </div>
-                    
                 </div>
 
                 <?php
