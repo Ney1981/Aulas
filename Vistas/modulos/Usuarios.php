@@ -71,12 +71,6 @@ if ($_SESSION["rol"] != "Administrador") {
 
                                     <td>
                                     
-                                        <button class="btn btn-success EditarUsuario" data-toggle="modal" 
-                                        data-target="#EditarUsuario" data-uid="'.$value["id"].'">
-                                        <i class="fa fa-pencil"></i></button>
-                                        <button class="btn btn-danger BorrarUsuario" data-uid="'.$value["id"].'"
-                                        Ufoto="'.$value["foto"].'"><i class="fa fa-trash"></i></button>
-
                                     </td>
                                 </tr>';
                                 }
@@ -95,12 +89,6 @@ if ($_SESSION["rol"] != "Administrador") {
 
                                     <td>
                                     
-                                        <button class="btn btn-success EditarUsuario" data-toggle="modal" 
-                                        data-target="#EditarUsuario" data-uid="'.$value["id"].'">
-                                        <i class="fa fa-pencil"></i></button>
-                                        <button class="btn btn-danger BorrarUsuario" data-uid="'.$value["id"].'"
-                                        Ufoto="'.$value["foto"].'"><i class="fa fa-trash"></i></button>
-
                                     </td>
                                 </tr>';
                                 }
