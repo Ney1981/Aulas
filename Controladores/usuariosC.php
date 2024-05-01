@@ -53,7 +53,7 @@ class UsuariosC {
         <div class="col-md-6 col-xs-12">
 
             <h2>Contraseña:</h2>
-            <input type="text" class="input-lg" name="clave" value="'.$resultado["clave"].'">
+            <input type="password" class="input-lg" name="clave" value="'.$resultado["clave"].'">
 
             <h2>Foto de Perfil:</h2>
             <br>
