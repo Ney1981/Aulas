@@ -289,8 +289,8 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `usuario`, `clave`, `nombre`, `apellido`, `documento`, `id_carrera`, `foto`, `rol`, `salt`) VALUES
-(73, 'Sonia10', '$2y$10$QEHukoo/884JRo2aoT8KOuDdkrt8xLuotXjqc/qGxLvWgDWA33jGy', 'Sonia', 'Gomez', '101040', '26', '', 'Estudiante', ''),
-(74, 'Camila20', '$2y$10$YizX44RRtUdpZbApzRhEwunvXAVoTMzWSlFVSf0r/CyuBTFzwtkhq', 'Camila', 'Gomez', '201020', '0', '', 'Profesor', ''),
+(73, 'Sonia10', '$2y$10$QEHukoo/884JRo2aoT8KOuDdkrt8xLuotXjqc/qGxLvWgDWA33jGy', 'Sonia', 'Gomez',  '101040', '26', '', 'Estudiante', ''),
+(74, 'Camila20', '$2y$10$YizX44RRtUdpZbApzRhEwunvXAVoTMzWSlFVSf0r/CyuBTFzwtkhq', 'Camila', 'Gomez','Aldana', '201020', '0', '', 'Profesor', ''),
 (75, 'Kelly10', '$2y$10$2XpkKBEtGxUbOY1DMcAZ.OIaOqFPXSUydwo44Ei.fvCQ9VETieq6O', 'Kelly', 'Montes', '101020', '27', '', 'Estudiante', ''),
 (76, 'Admin1', '$2y$10$2cn0Dj.PM/yyWfE7z8Dg5uasIcTX5jzxn/MbaIIEoJG8TRAAUX8hK', 'Ney', 'Martinez', '72264464', '0', '', 'Administrador', '');
 
