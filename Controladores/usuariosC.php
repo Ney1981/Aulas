@@ -156,7 +156,7 @@ class UsuariosC {
                 echo '<script>
                 swal({
                     type: "success",
-                    title: "El Usuario se han Creado Correctamente",
+                    title: "El Usuario se ha Creado Correctamente",
                     showConfirmButton: true,
                     confirmButtontext: "ok"
                 }).then(function(resultado){
