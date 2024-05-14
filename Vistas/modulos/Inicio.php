@@ -149,7 +149,7 @@
         
                                 <a href="http://localhost/Aulas/'.$inicio["manualProfesor"].'"target="_blank">
         
-                                        <h3><i class="fa fa-book"> Ver Manual de Profesor</i></h3>
+                                        <h3><i class="fa fa-book"> Ver Manual Profesor</i></h3>
         
                                     </a>
                                     
@@ -181,7 +181,7 @@
                                     <a href="http://localhost/Aulas/'.$inicio["manualEstudiante"].'" 
                                             target="_blank">
             
-                                            <h3><i class="fa fa-book"> Ver Manual de Estudiantes</i></h3>
+                                            <h3><i class="fa fa-book"> Ver Manual Estudiantes</i></h3>
             
                                         </a>
                                         
@@ -213,7 +213,7 @@
         
                                 <a href="http://localhost/Aulas/'.$inicio["manualProfesor"].'"target="_blank">
         
-                                        <h3><i class="fa fa-book"> Ver Manual de Profesor</i></h3>
+                                        <h3><i class="fa fa-book"> Ver Manual Profesor</i></h3>
         
                                     </a>
                                     
@@ -229,9 +229,11 @@
         
                                 <a href="http://localhost/Aulas/'.$inicio["manualEstudiante"].'"target="_blank">
         
-                                        <h3><i class="fa fa-book"> Ver Manual de Estudiantes</i></h3>
+                                        <h3><i class="fa fa-book"> Ver Manual Estudiantes </i></h3>
         
                                     </a>
+                                
+                                </div>
                                     
                         </div>';
 
