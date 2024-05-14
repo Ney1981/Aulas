@@ -78,7 +78,7 @@ if ($tarea) {
                         $guardarTarea -> GuardarTareaC();
                         
                 echo '<hr>
-                    <h3>Archivos:</h2>
+                    <h3>Archivos:</h3>
                 
                     <form method="post" enctype="multipart/form-data">
                 

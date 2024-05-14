@@ -308,7 +308,8 @@ if($_SESSION["rol"] == "Estudiante"){
                             echo '
                             
                                     '.$arch["nombre"].' - <a href="http://localhost/Aulas/'.$arch["archivo"].'"
-                                    download="'.$arch["nombre"].'">Descargar Archivos</a>';
+                                    download="'.$arch["nombre"].'">Descargar Archivos</a>
+                                    <br><br>';
 
                     }
 
