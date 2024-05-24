@@ -10,7 +10,7 @@
 
         <p class="login-box-msg">Crear una nueva Cuenta</p>
 
-        <div class="login-form-container" style="background-color: #eaf6ff; padding: 20px; border-radius: 10px;">
+        <div class="login-form-container" style="background-color: #AB47BC; padding: 20px; border-radius: 10px;">
 
             <form method="post">
 
@@ -37,31 +37,36 @@
 
                 <div class="form-group has-feedback">
 
-                    <input type="text" class="form-control" name="nombre" placeholder="Nombre">
+                    <input type="text" class="form-control" style="padding: 20px; border-radius: 10px;"
+                    name="nombre" placeholder="Nombre">
 
                 </div>
 
                 <div class="form-group has-feedback">
 
-                    <input type="text" class="form-control" name="apellido" placeholder="Apellido">
+                    <input type="text" class="form-control" style="padding: 20px; border-radius: 10px;"
+                    name="apellido" placeholder="Apellido">
 
                 </div>
 
                 <div class="form-group has-feedback">
 
-                    <input type="text" class="form-control" name="documento" placeholder="Documento">
+                    <input type="text" class="form-control" style="padding: 20px; border-radius: 10px;"
+                    name="documento" placeholder="Documento">
 
                 </div>
 
                 <div class="form-group has-feedback">
 
-                    <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Usuario">
+                    <input type="text" class="form-control" style="padding: 20px; border-radius: 10px;"
+                    id="usuario" name="usuario" placeholder="Usuario">
 
                 </div>
 
                 <div class="form-group has-feedback">
 
-                    <input type="password" class="form-control" name="clave" placeholder="Contraseña">
+                    <input type="password" class="form-control" style="padding: 20px; border-radius: 10px;"
+                    name="clave" placeholder="Contraseña">
                     <input type="hidden" class="form-control" name="rol" value="Estudiante">
 
                 </div>
@@ -70,14 +75,18 @@
 
                     <div class="col-xs-6">
 
-                        <button type="submit" class="btn btn-primary btn-block btn-flat">Crear Cuenta</button>
+                        <button type="submit" class="btn btn-primary btn-block btn-flat" 
+                        style="background-color: #003399; padding: 10px; border-radius: 10px;">
+                        Crear Cuenta</button>
 
                     </div>
 
                     <div class="col-xs-6">
 
                         <a href="Ingresar">
-                        <button type="button" class="btn btn-default btn-block btn-flat">Iniciar Sesion</button>
+                        <button type="button" class="btn btn-default btn-block btn-flat" 
+                        style="background-color: #FFFFFF; padding: 10px; border-radius: 10px;">
+                        Iniciar Sesion</button>
                         </a>
 
                     </div>
