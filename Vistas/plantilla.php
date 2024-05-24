@@ -51,7 +51,8 @@ session_start();
   <script src="http://localhost/Aulas/Vistas/sweetalert2/sweetalert2.all.js"></script>
 
 </head>
-<body class="hold-transition skin-blue sidebar-mini login-page"  style="background-color: #E1BEE7;">
+<body class="hold-transition skin-blue sidebar-mini login-page"  style="background: 
+linear-gradient(to right, rgb(358, 190, 231), rgb(132, 12, 222));">
 
 
   <?php
