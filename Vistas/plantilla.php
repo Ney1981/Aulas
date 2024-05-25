@@ -52,7 +52,7 @@ session_start();
 
 </head>
 <body class="hold-transition skin-blue sidebar-mini login-page"  style="background: 
-linear-gradient(to right, rgb(358, 190, 231), rgb(132, 12, 222));">
+linear-gradient(to right, rgb(173, 216, 230), rgb(0, 0, 139));">
 
 
   <?php

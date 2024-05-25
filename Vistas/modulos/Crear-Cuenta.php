@@ -2,7 +2,7 @@
 
     <div class="login-logo">
 
-        <h1>Aulas Virtuales</h1>
+    <h1 style="font-weight: bolder">Aulas Virtuales</h1>
 
     </div>
 
@@ -10,7 +10,7 @@
 
         <p class="login-box-msg">Crear una nueva Cuenta</p>
 
-        <div class="login-form-container" style="background-color: #AB47BC; padding: 20px; border-radius: 10px;">
+        <div class="login-form-container" style="background-color: #0C86F3; padding: 20px; border-radius: 10px;">
 
             <form method="post">
 

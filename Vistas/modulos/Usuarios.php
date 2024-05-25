@@ -32,8 +32,8 @@ if ($_SESSION["rol"] != "Administrador") {
                 </a>
                 <br><br>
 
-                <div style="background-color: #154360; padding: 20px;">
-                <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                <div style="background-color: #00008B; padding: 20px;">
+                <div class="" style="background-color: #0E8EF3; padding: 50px; border-radius: 10px;">
 
                 <table class="table table-bordered table-hover table-striped">
                     <thead>

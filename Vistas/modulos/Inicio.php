@@ -12,8 +12,8 @@
 
             <div class="box-body">
 
-                <div style="background-color: #154360; padding: 20px;">
-                    <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                <div style="background-color: #00008B; padding: 20px;">
+                    <div class="" style="background-color: #0E8EF3; padding: 50px; border-radius: 10px;">
 
                         <?php
 
@@ -49,9 +49,9 @@
 
                 <br>
 
-                <div style="background-color: #154360; padding: 20px;">
+                <div style="background-color: #00008B; padding: 20px;">
 
-                    <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                    <div class="" style="background-color: #0E8EF3; padding: 50px; border-radius: 10px;">
 
                         <h1>Carreras:</h1>
 
@@ -145,7 +145,7 @@
         
                             <h2>Manual para Profesores</h2>
         
-                                <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                                <div class="" style="background-color: #0E8EF3; padding: 50px; border-radius: 10px;">
         
                                 <a href="http://localhost/Aulas/'.$inicio["manualProfesor"].'"target="_blank">
         
@@ -176,7 +176,7 @@
             
                                 <h2>Manual para Estudiantes</h2>
                         
-                                    <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                                    <div class="" style="background-color: #0E8EF3; padding: 50px; border-radius: 10px;">
                                     
                                     <a href="http://localhost/Aulas/'.$inicio["manualEstudiante"].'" 
                                             target="_blank">
@@ -209,7 +209,7 @@
 
                         <div class="col-lg-4">
                 
-                                <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                                <div class="" style="background-color: #0E8EF3; padding: 50px; border-radius: 10px;">
         
                                 <a href="http://localhost/Aulas/'.$inicio["manualProfesor"].'"target="_blank">
         
@@ -225,7 +225,7 @@
 
                         <div class="col-lg-4">
                 
-                                <div class="" style="background-color: #85C1E9; padding: 50px; border-radius: 10px;">
+                                <div class="" style="background-color: #0E8EF3; padding: 50px; border-radius: 10px;">
         
                                 <a href="http://localhost/Aulas/'.$inicio["manualEstudiante"].'"target="_blank">
         
